@@ -508,27 +508,10 @@ const gameData = [
 //   )
 // })
 
-var x = window.matchMedia("(max-width: 768px)")
-var y = window.matchMedia("(max-width: 390px)")
 
 
-document.querySelector("#close").addEventListener("click", () => {
-  document.querySelector(".popup").style.visibility = "hidden";
-  document.querySelector(".popup").style.opacity = "0";
-  
-  // document.querySelector("#hero").style.height = "60vh";
 
-  // if (x.matches) { 
-  //   document.querySelector("#hero").style.height = "25vh";
-  //   document.querySelector("h2.hero-para").style.fontSize = "1.5rem";
-  // } 
 
-  // if(y.matches) {
-  //   document.querySelector("#hero").style.height = "40vh";
-  //   document.querySelector("h2.hero-para").style.fontSize = "1rem";
-  // }
- 
-})
 
 
 
